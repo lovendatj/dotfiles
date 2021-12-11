@@ -1,0 +1,18 @@
+[user]
+	email = 69658747+lovendatj@users.noreply.github.com
+	name = John Murray
+
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+    
+[commit]
+    gpgsign = false
+
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+	ui = true
